@@ -23,5 +23,10 @@ public class Edge<T> {
 		return str;
 	}
 	
-
+	public void Change(T newitem){
+		ch = newitem;
+	}
+	
+	
+	
 }

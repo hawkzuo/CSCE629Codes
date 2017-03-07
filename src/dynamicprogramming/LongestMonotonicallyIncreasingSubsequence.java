@@ -169,11 +169,11 @@ public class LongestMonotonicallyIncreasingSubsequence {
 		
 		System.out.println("Longest Subsequence's Length is :\n"+s.globalMax);
 		
-		System.out.println("One possible sequence(by N^2) :");
+		System.out.println("One possible sequence(by 	N^2) :");
 		System.out.println(s.getOrder());
 		System.out.println("");
 		
-		System.out.println("One possible sequence(by NlgN) :");
+		System.out.println("One possible sequence(by 'NlgN') :");
 		s.generateAnsLog();
 		
 		
