@@ -12,11 +12,8 @@ public class LongestMonotonicallyIncreasingSubsequence {
 	int[] A;
 	int N;
 	int globalMax;
-	int globalIndex;
-	
+	int globalIndex;	
 	int[] lD;
-	
-	
 	
 	public LongestMonotonicallyIncreasingSubsequence(int[] input) {
 		// TODO Auto-generated constructor stub
@@ -83,13 +80,6 @@ public class LongestMonotonicallyIncreasingSubsequence {
 			to.add(from.get(i));
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 	public void generateAns(){
 		D[1] = 1; P[1] = 1;	
@@ -169,7 +159,7 @@ public class LongestMonotonicallyIncreasingSubsequence {
 		
 		System.out.println("Longest Subsequence's Length is :\n"+s.globalMax);
 		
-		System.out.println("One possible sequence(by 	N^2) :");
+		System.out.println("One possible sequence(by  N^2) :");
 		System.out.println(s.getOrder());
 		System.out.println("");
 		

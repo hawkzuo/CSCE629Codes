@@ -8,8 +8,8 @@ public class CheckSwap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Edge<String> e1 = new Edge("a",1,2);
-		Edge<String> e2 = new Edge("b",2,3);
+		Edge<String> e1 = new Edge<String>("a",1,2);
+		Edge<String> e2 = new Edge<String>("b",2,3);
 		
 		System.out.println(e1);
 		
